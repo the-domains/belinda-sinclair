@@ -1,28 +1,40 @@
-name: BELINDA SINCLAIR
 favicon: null
-layout_spectrum: 0.46905895066447556
-typography_spectrum: 0.15548947383649647
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: BELINDA SINCLAIR
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.1917293
+  brandStrength: 0.5607461330946535
+  lightness: 1
   brandColors:
     - '#B8B42D'
     - '#697A21'
     - '#FFFCE8'
     - '#3E363F'
     - '#DD403A'
-  brandStrength: 0.5607461330946535
-  lightness: 0.27944454131647944
-  saturation: 0.35296693886630237
-  rhythmicContrast: 0.05942393094301224
-purpose: []
+  rhythmicContrast: 1
+typography_spectrum: 0.1554894738364965
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.4690589506644756
+analytics:
+  twitter: null
+  google: null
+  facebook: null
